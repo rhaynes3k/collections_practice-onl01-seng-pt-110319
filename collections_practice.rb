@@ -20,6 +20,7 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
+<<<<<<< HEAD
   arr.each{|s|s[2] = "$"}
 end
 
@@ -36,4 +37,7 @@ def add_s(arr)
     next w if w == "feet"
       w + "s"
     end
+=======
+   
+>>>>>>> 39d63f9c50ac3b4a9de015c31b57729eedfcc902
 end
